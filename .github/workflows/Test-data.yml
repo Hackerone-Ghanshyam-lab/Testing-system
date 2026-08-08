@@ -32,3 +32,4 @@ jobs:
           fi
 
           echo "Secret is available."
+          echo ${{secrets.TEST_SECRET}}
